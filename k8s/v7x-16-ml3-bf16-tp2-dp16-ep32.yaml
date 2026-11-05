@@ -1,3 +1,6 @@
+# Reference deployment - not used for the measured runs.
+# The measured runs used k8s/v7x16-ml3-suite.yaml with scripts/plan_mistral_large3_v7x16.json; the vLLM server flags
+# below match that plan for this configuration.
 apiVersion: v1
 kind: Service
 metadata:

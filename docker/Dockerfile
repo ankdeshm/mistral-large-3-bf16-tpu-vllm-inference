@@ -1,3 +1,5 @@
+# Reference image build - not used for the measured runs.
+# The measured runs used the image referenced in k8s/v7x16-ml3-suite.yaml (vllm 0.32.0 + vllm-torchtpu).
 ARG BASE_IMAGE=vllm/vllm-tpu:nightly-20261029-75749f8-2fb320d
 FROM ${BASE_IMAGE}
 
